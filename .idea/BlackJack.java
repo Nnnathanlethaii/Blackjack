@@ -29,7 +29,7 @@ public class BlackjackGame {
             }
             System.out.println("Your round score is: " + roundScore);
 
-            // allow hits
+            // allow hits per round
             while (true) {
                 if (roundScore > 21) {
                     System.out.println("Bust! Your round score (" + roundScore + ") exceeds 21.");
